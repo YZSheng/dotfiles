@@ -47,8 +47,9 @@ set laststatus=2                  " Show the status line all the time
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
+let g:solarized_termtrans = 1
 " Or use vividchalk
-colorscheme topfunky-light
+colorscheme solarized
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
